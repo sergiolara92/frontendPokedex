@@ -3,12 +3,12 @@ import {createRouter, createWebHistory} from 'vue-router'
 // Definimos las rutas
 const routes = [
     {
-        path: '/frontendPokedex/',
+        path: '/',
         name: 'home',
         component: () => import('../views/Home.vue')
     },
     {
-        path: '/frontendPokedex/:id',
+        path: '/:id',
         name: 'details',
         component: () => import('../views/Details.vue')
     }
